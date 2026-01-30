@@ -14,9 +14,9 @@ def kim_bu(isim):
     prompt = f"You are a Twitter bot. Provide a brief, impressive summary of a maximum of 250 characters about the following person: {isim}"
     
     try:
-        # Write model name directly without 'models/' prefix
+        # Write model name with 'models/' prefix
         response = client.models.generate_content(
-            model="gemini-1.5-flash", 
+            model="models/gemini-2.0-flash", 
             contents=prompt
         )
         return response.text
