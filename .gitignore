@@ -1,0 +1,10 @@
+# Gizli anahtarlar (API Keys)
+.env
+
+# Python geçici dosyaları
+__pycache__/
+*.py[cod]
+
+# Sanal ortam (Virtual Environment) klasörü (Eğer oluşturursan)
+venv/
+.venv/
